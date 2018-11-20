@@ -1,0 +1,80 @@
+[
+  {
+    "id": "551609dd-b5d5-4b1b-bc31-50e4ce58bb08",
+    "data": [
+      {
+        "text": "Give me details on ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      },
+      {
+        "text": " reminder",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542591935
+  },
+  {
+    "id": "7a106ec5-dce6-46a1-bea0-4bce2a34f24d",
+    "data": [
+      {
+        "text": "Details for ",
+        "userDefined": false
+      },
+      {
+        "text": "shopping",
+        "alias": "text",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on November 11",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542591935
+  },
+  {
+    "id": "3f7367bb-d858-48de-8846-d4fde2c1c50c",
+    "data": [
+      {
+        "text": "Show details for ",
+        "userDefined": false
+      },
+      {
+        "text": "look through presentation",
+        "alias": "text",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow at 11: 00 pm",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542591935
+  }
+]

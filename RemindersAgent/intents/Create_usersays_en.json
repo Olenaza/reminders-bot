@@ -1,0 +1,186 @@
+[
+  {
+    "id": "27bfbf12-eb4e-44e8-a32f-ae86358c6e2c",
+    "data": [
+      {
+        "text": "create reminder ",
+        "userDefined": false
+      },
+      {
+        "text": "water flowers",
+        "alias": "text",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "11:10",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542717510
+  },
+  {
+    "id": "4bf6287b-2a10-4264-93b0-30eb4cf2c9b3",
+    "data": [
+      {
+        "text": "create reminder for ",
+        "userDefined": false
+      },
+      {
+        "text": "11:15",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "a51d43c3-26be-4241-b878-c611f821ce34",
+    "data": [
+      {
+        "text": "create reminder ",
+        "userDefined": false
+      },
+      {
+        "text": "call mum",
+        "alias": "text",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "today at 11:17",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542717510
+  },
+  {
+    "id": "380f2b9d-6344-4e51-abec-aa74f6328b2c",
+    "data": [
+      {
+        "text": "create reminder ",
+        "userDefined": false
+      },
+      {
+        "text": "buy dog food",
+        "alias": "text",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "November 8 at 11:18",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542717510
+  },
+  {
+    "id": "49a51c89-6e80-46e5-a26a-4b46f53a5fa3",
+    "data": [
+      {
+        "text": "add reminder for ",
+        "userDefined": false
+      },
+      {
+        "text": "today at 17:25",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "884b4ded-2693-4a87-b4d6-e6e94264b305",
+    "data": [
+      {
+        "text": "add reminder for ",
+        "userDefined": false
+      },
+      {
+        "text": "go to the cinema",
+        "alias": "text",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "17:31",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542717510
+  },
+  {
+    "id": "ec0e8128-0936-42b9-8480-9ff8d0363b03",
+    "data": [
+      {
+        "text": "New reminder ",
+        "userDefined": false
+      },
+      {
+        "text": "Nov 9",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539693722
+  },
+  {
+    "id": "98530c95-fe9d-48db-9bf0-068c2e095dce",
+    "data": [
+      {
+        "text": "Create reminder for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow at 12 am",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539681701
+  }
+]

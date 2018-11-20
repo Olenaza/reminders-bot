@@ -1,0 +1,72 @@
+{
+  "id": "7cb7f5e4-152a-42be-a4c3-37921618a773",
+  "name": "Reschedule",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c73db8a9-5478-410d-89d4-aad2d366ae39",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For what time was it scheduled?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "8bffb645-dc7f-4068-9cbc-9e07acfc278c",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "name": "time_new",
+          "value": "$time_new",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the new time for the reminder?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "5bfd0b83-d4a7-4d47-85be-36dbc1c7e85a",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "isList": false
+        },
+        {
+          "id": "27e38096-780f-4a12-b3f2-eb4897d3af7c",
+          "dataType": "@sys.any",
+          "name": "text",
+          "value": "$text",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542718428,
+  "fallbackIntent": false,
+  "events": []
+}

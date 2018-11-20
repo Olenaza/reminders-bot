@@ -1,0 +1,192 @@
+[
+  {
+    "id": "244dba4f-2d49-42fe-9e6c-419f40bc1948",
+    "data": [
+      {
+        "text": "move ",
+        "userDefined": false
+      },
+      {
+        "text": "testy note",
+        "alias": "text",
+        "meta": "@sys.any",
+        "userDefined": false
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "2018-11-09 11:15",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "93367633-8692-4122-88c2-5c1e174058e5",
+    "data": [
+      {
+        "text": "reschedule my ",
+        "userDefined": false
+      },
+      {
+        "text": "2018-11-06 09:00",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      },
+      {
+        "text": " reminder",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "25820afe-2e3f-40c6-8884-c23cff3b4d14",
+    "data": [
+      {
+        "text": "move ",
+        "userDefined": false
+      },
+      {
+        "text": "feed dog",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "6 pm",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "7 pm",
+        "alias": "time_new",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541580625
+  },
+  {
+    "id": "13abd758-c931-4b95-88b9-55a22afb55da",
+    "data": [
+      {
+        "text": "reschedule reminder about ",
+        "userDefined": false
+      },
+      {
+        "text": "course",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541580625
+  },
+  {
+    "id": "28a235c0-cfb5-4290-b730-3a730531a38d",
+    "data": [
+      {
+        "text": "reschedule my ",
+        "userDefined": false
+      },
+      {
+        "text": "7 am",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      },
+      {
+        "text": " reminder about ",
+        "userDefined": false
+      },
+      {
+        "text": "yoga",
+        "alias": "name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541580625
+  },
+  {
+    "id": "dc163ac9-d274-4483-ab0a-65a1cfba2a46",
+    "data": [
+      {
+        "text": "change time from ",
+        "userDefined": false
+      },
+      {
+        "text": "3 pm",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "4 pm",
+        "alias": "time_new",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541410845
+  },
+  {
+    "id": "24cbbeb5-a979-4d7b-b48d-d68d3f333df3",
+    "data": [
+      {
+        "text": "move my ",
+        "userDefined": false
+      },
+      {
+        "text": "6 am",
+        "alias": "time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      },
+      {
+        "text": " reminder to ",
+        "userDefined": false
+      },
+      {
+        "text": "7 in the evening",
+        "alias": "time_new",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541410845
+  }
+]

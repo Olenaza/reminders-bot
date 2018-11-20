@@ -1,0 +1,45 @@
+{
+  "id": "1e269fc7-c5e1-459f-b2b9-422dee344018",
+  "name": "Remove",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e5d45623-59b6-451c-8496-0712e8b2db31",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "time",
+          "value": "$time",
+          "isList": false
+        },
+        {
+          "id": "c04ee318-19c0-4f50-8c31-3eb1134e2571",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541508738,
+  "fallbackIntent": false,
+  "events": []
+}

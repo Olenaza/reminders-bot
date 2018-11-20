@@ -1,0 +1,73 @@
+{
+  "id": "46983fd4-8089-47d5-b666-d62bef05eef8",
+  "name": "Create",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Create-followup",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "359a0720-3d57-4d47-969e-bcfd6cfec6d0",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please set date and time for the reminder"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "1137c428-90d2-4752-8ae5-2dccee1330b9",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "text",
+          "value": "$text",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the text for the reminder?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "Please provide text for the reminder",
+            "Please enter text of the reminder",
+            "Please input reminder text"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542717510,
+  "fallbackIntent": false,
+  "events": []
+}

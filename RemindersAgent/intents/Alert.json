@@ -1,0 +1,34 @@
+{
+  "id": "5c97a0f9-de8c-4f7a-b37f-d22287fc5d11",
+  "name": "Alert",
+  "auto": true,
+  "contexts": [
+    "alert"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542590167,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "alert"
+    }
+  ]
+}

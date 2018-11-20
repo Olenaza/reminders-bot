@@ -1,0 +1,57 @@
+{
+  "id": "7e843847-0eca-48c6-8b1f-6f84bc4bb39a",
+  "name": "Show reminder details",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "671357f3-bf65-4978-a0d8-e07b760fec15",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the date and time of the reminder?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "7b618bac-1818-4486-93b5-63d922628516",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "text",
+          "value": "$text",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the name of the reminder?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542591935,
+  "fallbackIntent": false,
+  "events": []
+}

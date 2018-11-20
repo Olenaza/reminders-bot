@@ -1,0 +1,74 @@
+{
+  "id": "76df608d-bb49-4450-bc50-e1c5d4a63ee3",
+  "name": "Rename",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "EditName-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ff2272aa-95fd-45f9-a7ed-262794abcac9",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide new name"
+            },
+            {
+              "lang": "en",
+              "value": "What\u0027s the new name"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "d8db1d36-9f4c-4b9c-8021-6b46d90852f1",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "old_name",
+          "value": "$old_name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s the name of the reminder you want to change?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "25a9913c-618e-40d0-877f-d1ced2cd7d96",
+          "dataType": "@sys.date-time",
+          "name": "time",
+          "value": "$time",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542718356,
+  "fallbackIntent": false,
+  "events": []
+}
